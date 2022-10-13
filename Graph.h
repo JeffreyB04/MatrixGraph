@@ -6,6 +6,9 @@
 #define MATRIXGRAPH_GRAPH_H
 #define INF 0x3f3f3f3f
 #define V 5
+#include <iostream>
+
+using namespace std;
 class Graph {
 private:
     int graph[V][V];
